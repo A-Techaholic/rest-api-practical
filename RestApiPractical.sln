@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiPractical.Core", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiPractical.PracticeApi", "src\RestApiPractical.PracticeApi\RestApiPractical.PracticeApi.csproj", "{8E3996ED-F45B-433B-BAE8-4CC1C975A7FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiPractical.Api", "src\RestApiPractical.Api\RestApiPractical.Api.csproj", "{591DDC05-2D19-47C0-95C6-FEB9FF3E8930}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,10 +23,6 @@ Global
 		{8E3996ED-F45B-433B-BAE8-4CC1C975A7FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E3996ED-F45B-433B-BAE8-4CC1C975A7FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E3996ED-F45B-433B-BAE8-4CC1C975A7FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{591DDC05-2D19-47C0-95C6-FEB9FF3E8930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{591DDC05-2D19-47C0-95C6-FEB9FF3E8930}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{591DDC05-2D19-47C0-95C6-FEB9FF3E8930}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{591DDC05-2D19-47C0-95C6-FEB9FF3E8930}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +30,5 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{72B88509-A717-491D-A490-633CF40C7E82} = {78A83995-FA29-4E1A-A52A-D7565C0A66CF}
 		{8E3996ED-F45B-433B-BAE8-4CC1C975A7FA} = {78A83995-FA29-4E1A-A52A-D7565C0A66CF}
-		{591DDC05-2D19-47C0-95C6-FEB9FF3E8930} = {78A83995-FA29-4E1A-A52A-D7565C0A66CF}
 	EndGlobalSection
 EndGlobal

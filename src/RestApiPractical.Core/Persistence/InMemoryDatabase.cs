@@ -34,7 +34,7 @@ public class InMemoryDatabase
         var search = query.search;
         var sortBy = query.sort_by;
         var sortOrder = query.sort_order;
-        var pageIdx = query.page_idx ?? 0;
+        var page = query.page ?? 1;
         var pageSize = query.page_size ?? 10;
 
         var posts = _posts.AsEnumerable();
@@ -53,7 +53,7 @@ public class InMemoryDatabase
                 break;
         }
 
-        return posts.Skip(pageIdx * pageSize).Take(pageSize).ToList().AsReadOnly();
+        return posts.Skip((page - 1) * pageSize).Take(pageSize).ToList().AsReadOnly();
     }
 
     public PostEntity GetPostById(string id)
